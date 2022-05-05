@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2996267800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.prepareTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Comparar especificaciones de 2 laptops",
+        "description": "",
+        "id": "gadget-snow;comparar-especificaciones-de-2-laptops",
+        "after": [
+          {
+            "result": {
+              "duration": 809288800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.finalizarTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53912687100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "usuario ingresa a la web de Gadget snow",
+            "match": {
+              "location": "CompareLaptopsDefinition.usuarioIngresaALaWebDeGadgetSnow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5623190000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "usuario selecciona la primera laptop \"Lenovo 100e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lenovo 100e\"",
+                  "offset": 37
+                }
+              ],
+              "location": "CompareLaptopsDefinition.usuarioSeleccionaLaPrimeraLaptop(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5399047900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usuario selecciona la segunda laptop \"Lenovo 300w\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lenovo 300w\"",
+                  "offset": 37
+                }
+              ],
+              "location": "CompareLaptopsDefinition.usuarioSeleccionaLaSegundaLaptop(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083502800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usuario presiona el boton compare",
+            "match": {
+              "location": "CompareLaptopsDefinition.usuarioPresionaElBotonCompare()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3335566200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "se muestra resultado de comparacion",
+            "match": {
+              "location": "CompareLaptopsDefinition.seMuestraResultadoDeComparacion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2451555300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "usuario extrae informacion de tabla SUMMARY en archivo excel",
+            "match": {
+              "location": "CompareLaptopsDefinition.usuarioExtraeInformacionDeTablaSUMMARYEnArchivoExcel()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Gadget snow",
+    "description": "",
+    "id": "gadget-snow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TestCases/CompareLaptops.feature",
+    "tags": []
+  }
+]
